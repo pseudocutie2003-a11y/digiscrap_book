@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Our Scrapbook</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- STEP 1: ENTER NAME -->
+<div class="paper" id="step1">
+  <h1>📖 Our Scrapbook</h1>
+  <p>Enter your name to continue</p>
+
+  <input type="text" id="nameInput" placeholder="Your name">
+  <p id="errorMessage" class="error"></p>
+
+  <button onclick="goToQuestions()">Open</button>
+</div>
+
+<!-- STEP 2: QUESTIONS -->
+<div class="paper hidden" id="step2">
+  <h2 id="welcomeText"></h2>
+
+  <p>Who is always late?</p>
+  <input type="text" id="q1">
+
+  <button onclick="showResult()">Next</button>
+</div>
+
+<!-- STEP 3: RESULT -->
+<div class="paper hidden" id="step3">
+  <h2 id="finalMessage"></h2>
+  <p>Thanks for being part of our memories 💛</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
