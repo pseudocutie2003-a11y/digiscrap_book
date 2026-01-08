@@ -1,0 +1,25 @@
+body {
+  background: #f5efe6;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.paper {
+  background: #fffaf0;
+  padding: 30px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
